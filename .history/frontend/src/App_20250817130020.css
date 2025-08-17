@@ -1,7 +1,7 @@
 * {
   margin: 0%;
   padding: 0%;
-  box-sizing: border-boc;
+  box-sizing: border-box;
 }
 
 html,
@@ -27,8 +27,18 @@ main .right {
 }
 
 main .left {
-  background-color: #fff;
+  background-color: #000000;
   position: relative;
+}
+
+.left .code,
+.code pre,
+.code pre code {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  border-radius: 0.7rem;
+  background-color: #0d0c0c;
 }
 
 main .left .review {
@@ -36,11 +46,17 @@ main .left .review {
   bottom: 1rem;
   right: 1rem;
   background-color: rgb(219, 219, 255);
-  color: #000;
-  padding: 1rem;
-  border-radius: 0.7;
+  color: #000000;
+  padding: 0.5rem 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0.7rem;
 }
 
 main .right {
-  background-color: #e8e8e89f;
+  background-color: #343434;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  overflow: auto;
 }
