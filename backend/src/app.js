@@ -7,7 +7,7 @@ const app = express();
 app.use(cors({
     origin: [
         'http://localhost:5173',
-        'https://ai-code-reviewer-cw4b.onrender.com'
+        'https://ai-code-reviewer-backend-xmkw.onrender.com'
     ],
     credentials: true
 }));
